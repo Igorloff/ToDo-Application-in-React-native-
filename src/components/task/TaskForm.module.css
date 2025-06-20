@@ -1,0 +1,16 @@
+.taskForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+}
+
+.taskForm label {
+  margin-bottom: 4px;
+}
+
+.button_container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}

@@ -1,0 +1,94 @@
+.task_card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px;
+  min-width: 200px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.task_card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.task_card h3 {
+  font-size: 1.3rem;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.task_card p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  color: #555555;
+}
+
+.task_card span {
+  font-weight: 600;
+  color: #222222;
+  margin-right: 4px;
+}
+
+.task_card .category {
+  display: inline-block;
+  background-color: #e8f0ff;
+  color: #3366ff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  margin-top: 8px;
+  width: fit-content;
+}
+
+.task_card .date {
+  font-size: 0.85rem;
+  color: #888888;
+  margin-top: 4px;
+}
+
+.button_grid {
+  gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.task_card .remove_button {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: auto;
+  transition: background-color 0.2s ease;
+  align-self: flex-start;
+}
+
+.task_card .remove_button:hover {
+  background-color: #d9363e;
+}
+
+.task_card .edit_button {
+  background-color: #83c3ff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: auto;
+  transition: background-color 0.2s ease;
+  align-self: flex-start;
+}
+
+.task_card .edit_button:hover {
+  background-color: #6da1d3;
+}

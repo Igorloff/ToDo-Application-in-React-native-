@@ -1,0 +1,28 @@
+.link_btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1aa3ff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.1s ease;
+}
+
+.link_btn:hover {
+  color: white;
+  background-color: #008ae6;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.btn_space {
+  margin: 28px 0;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    {
+      "id": "aadd",
+      "name": "A",
+      "category": "Estudos",
+      "description": "A",
+      "date": "2025-06-18T02:32:23.478Z"
+    },
+    {
+      "id": "a31f",
+      "name": "B",
+      "category": "Estudos",
+      "description": "B",
+      "date": "2025-06-25"
+    },
+    {
+      "id": "5834",
+      "name": "c",
+      "category": "Escolar",
+      "description": "c",
+      "date": "2025-06-20"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Estudos"
+    },
+    {
+      "id": "2",
+      "name": "Doméstico"
+    },
+    {
+      "id": "3",
+      "name": "Escolar"
+    }
+  ]
+}

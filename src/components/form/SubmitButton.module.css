@@ -1,0 +1,30 @@
+.btn {
+  padding: 0.6em 1.2em;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease,
+    box-shadow 0.2s ease;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: #1aa3ff;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background-color: #006bb3;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(26, 163, 255, 0.4);
+}

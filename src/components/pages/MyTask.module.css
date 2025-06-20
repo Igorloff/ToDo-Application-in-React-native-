@@ -1,0 +1,27 @@
+.task_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 12px;
+  gap: 24px;
+}
+
+.title_container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+@media (max-width: 900px) {
+  .task_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .task_container {
+    grid-template-columns: 1fr;
+  }
+}
