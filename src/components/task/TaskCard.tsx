@@ -1,6 +1,7 @@
 import styles from './taskCard.module.css';
 import { format } from 'date-fns';
 import type { MouseEvent } from 'react';
+import { Link } from 'react-router-dom';
 
 interface Task {
   id: number;
@@ -41,9 +42,9 @@ function TaskCard({ task, handleRemove, handleEdit }: TaskProps) {
         <button className={styles.remove_button} onClick={remove}>
           Remover
         </button>
-        <button className={styles.edit_button} onClick={edit}>
+        <Link to={`/task/${task.id}`} className={styles.edit_button}>
           Editar
-        </button>
+        </Link>
       </div>
     </div>
   );

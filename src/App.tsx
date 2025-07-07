@@ -6,6 +6,7 @@ import Contact from './components/pages/Contact';
 import Company from './components/pages/Company';
 import MainLayout from './components/layout/MainLayout';
 import NewTask from './components/pages/NewTask';
+import Task from './components/pages/Task';
 
 // Para rodar o backend: npm run backend
 // Para rodar o frontend: npm run dev
@@ -21,6 +22,7 @@ function App() {
           <Route path="NewTask" element={<NewTask />} />
           <Route path="contact" element={<Contact />} />
           <Route path="company" element={<Company />} />
+          <Route path="task/:id" element={<Task />} />
         </Route>
       </Routes>
     </Router>
